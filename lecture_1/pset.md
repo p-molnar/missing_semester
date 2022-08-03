@@ -20,17 +20,6 @@ far, and we will try to help you out.
  1. Create a new directory called `missing` under `/tmp`.
  1. Look up the `touch` program. The `man` program is your friend.
  1. Use `touch` to create a new file called `semester` in `missing`.
- 1. Write the following into that file, one line at a time:
-    ```
-    #!/bin/sh
-    curl --head --silent https://missing.csail.mit.edu
-    ```
-    The first line might be tricky to get working. It's helpful to know that
-    `#` starts a comment in Bash, and `!` has a special meaning even within
-    double-quoted (`"`) strings. Bash treats single-quoted strings (`'`)
-    differently: they will do the trick in this case. See the Bash
-    [quoting](https://www.gnu.org/software/bash/manual/html_node/Quoting.html)
-    manual page for more information.
  1. Try to execute the file, i.e. type the path to the script (`./semester`)
     into your shell and press enter. Understand why it doesn't work by
     consulting the output of `ls` (hint: look at the permission bits of the

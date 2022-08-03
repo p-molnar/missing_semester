@@ -1,6 +1,6 @@
 # Exercises
 
-All classes in this course are accompanied by a series of exercises. Some give
+1. All classes in this course are accompanied by a series of exercises. Some give
 you a specific task to do, while others are open-ended, like "try using X and Y
 programs". We highly encourage you to try them out.
 

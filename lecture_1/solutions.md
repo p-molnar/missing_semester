@@ -35,14 +35,14 @@
 	```
 
  5. Try to execute the file, i.e. type the path to the script (`./semester`)into your shell and press enter. Understand why it doesn't work by consulting the output of `ls` (hint: look at the permission bits of the file).
-
-   ```
-   ./semester
-   ls -l
-   ```
+ 
+	```
+	./semester
+	ls -l
+	```
 	By default the shell tries to execute the file with a suitable program, but it does not have the permission to do so, since `semester` lacks execution bit.
 
-6. Run the command by explicitly starting the `sh` interpreter, and giving it the file `semester` as the first argument, i.e. `sh semester`. Why does this work, while `./semester` didn't?
+5. Run the command by explicitly starting the `sh` interpreter, and giving it the file `semester` as the first argument, i.e. `sh semester`. Why does this work, while `./semester` didn't?
 
 	```
 	sh semester
@@ -51,9 +51,9 @@
 
 7. Look up the `chmod` program (e.g. use `man chmod`).
    
-   ```
-   man chmod
-   ```
+	```
+	man chmod
+	```
 
 8. Use `chmod` to make it possible to run the command `./semester` rather than having to type `sh semester`. How does your shell know that the file is supposed to be interpreted using `sh`? See this page on the [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) line for more information.
 
